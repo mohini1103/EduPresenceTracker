@@ -38,31 +38,33 @@ Spring Boot & Hibernate: Leveraging modern frameworks for reliability and perfor
    mvn spring-boot:run
    ```
   📂 Project Structure
-   EduPresenceTracker/
-├── src/main/java/com/edupresencetracker/
-│   ├── controller/
-│   │   ├── StudentController.java
-│   │   ├── SubjectController.java
-│   │   ├── UserController.java
-│   │   └── AttendanceRecordController.java
-│   ├── service/
-│   │   ├── StudentService.java
-│   │   ├── SubjectService.java
-│   │   ├── UserService.java
-│   │   └── AttendanceService.java
-│   ├── dao/
-│   │   ├── StudentRepository.java
-│   │   ├── SubjectRepository.java
-│   │   ├── UserRepository.java
-│   │   └── AttendanceRepository.java
-│   ├── model/
-│   │   ├── Student.java
-│   │   ├── Subject.java
-│   │   ├── User.java
-│   │   └── AttendanceRecord.java
-│   └── utils/
-│       └── CustomUtils.java
-├── src/main/resources/
-│   ├── application.properties
-│   └── data.sql
-└── pom.xml
+
+  
+         EduPresenceTracker/
+      ├── src/main/java/com/edupresencetracker/
+      │   ├── controller/
+      │   │   ├── StudentController.java
+      │   │   ├── SubjectController.java
+      │   │   ├── UserController.java
+      │   │   └── AttendanceRecordController.java
+      │   ├── service/
+      │   │   ├── StudentService.java
+      │   │   ├── SubjectService.java
+      │   │   ├── UserService.java
+      │   │   └── AttendanceService.java
+      │   ├── dao/
+      │   │   ├── StudentRepository.java
+      │   │   ├── SubjectRepository.java
+      │   │   ├── UserRepository.java
+      │   │   └── AttendanceRepository.java
+      │   ├── model/
+      │   │   ├── Student.java
+      │   │   ├── Subject.java
+      │   │   ├── User.java
+      │   │   └── AttendanceRecord.java
+      │   └── utils/
+      │       └── CustomUtils.java
+      ├── src/main/resources/
+      │   ├── application.properties
+      │   └── data.sql
+      └── pom.xml
