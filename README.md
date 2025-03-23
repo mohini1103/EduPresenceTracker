@@ -41,7 +41,9 @@ Spring Boot & Hibernate: Leveraging modern frameworks for reliability and perfor
    mvn spring-boot:run
    ```
 
+
   📂 Project Structure
+
 
 EduPresenceTracker/
 ├── src/main/java/com/edupretracker/
@@ -71,3 +73,4 @@ EduPresenceTracker/
 │   ├── application.properties
 │   └── data.sql
 └── pom.xml
+
