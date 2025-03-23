@@ -1,7 +1,4 @@
-
 # **Edu Presence Tracker 🎓📊**  
-_A Smart Attendance Management System using Spring Boot 
-
 Edu Presence Tracker is a web-based **Attendance Management System** designed to automate and streamline the process of tracking student attendance. Built using **Spring Boot (Java) for the backend** ,this application provides a secure, efficient, and user-friendly platform for **students, faculty, and administrators** to manage attendance records.
 
 ## **Features 🚀**  
@@ -40,13 +37,9 @@ Spring Boot & Hibernate: Leveraging modern frameworks for reliability and perfor
    ```bash
    mvn spring-boot:run
    ```
-
-
   📂 Project Structure
-
-
-EduPresenceTracker/
-├── src/main/java/com/edupretracker/
+   EduPresenceTracker/
+├── src/main/java/com/edupresencetracker/
 │   ├── controller/
 │   │   ├── StudentController.java
 │   │   ├── SubjectController.java
@@ -73,4 +66,3 @@ EduPresenceTracker/
 │   ├── application.properties
 │   └── data.sql
 └── pom.xml
-
